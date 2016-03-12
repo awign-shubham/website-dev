@@ -108,8 +108,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(3, 35, 86, 0.5);
   position: relative;
+  font-weight: bolder;
+  font-size: 18px;
 }
 #fh5co-header #navbar li a span {
   position: relative;
@@ -448,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#fh5co-our-services,
+#fh5co-features,
 #fh5co-press {
   background: #f4f4f4;
 }
@@ -975,7 +977,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .owl-carousel-fullwidth .item, .owl-carousel-fullwidth .fh5co-owl-text-wrap {
-  height: 800px;
+  height: 1000px;
   display: table;
   width: 100%;
 }
@@ -1000,7 +1002,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 228, 181, 0.1);
   z-index: 8;
 }
 .owl-carousel-fullwidth .item img {
@@ -1128,3 +1130,88 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+#fh5co-testimony {
+  background: #4fd2c2;
+  color: #fff;
+  padding: 8em 0;
+}
+#fh5co-testimony .fh5co-vcard img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 992px) {
+  #fh5co-testimony .fh5co-vcard img {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fh5co-testimony .fh5co-vcard img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fh5co-testimony .fh5co-vcard img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px auto;
+  }
+}
+#fh5co-testimony blockquote {
+  padding: 0;
+  border-left: none;
+  color: #fff;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-testimony blockquote {
+    text-align: center;
+  }
+}
+#fh5co-testimony blockquote p {
+  font-size: 30px;
+  line-height: 45px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-testimony blockquote p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+#fh5co-testimony .fh5co-author {
+  font-family: "Montserrat", arial, sans-serif;
+  color: #fff;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-testimony .fh5co-author {
+    text-align: center;
+  }
+}
+#fh5co-testimony .fh5co-author > span {
+  color: #000;
+}
