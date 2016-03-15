@@ -1215,3 +1215,9 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimony .fh5co-author > span {
   color: #000;
 }
+
+.fa-caret-right {
+ vertical-align: baseline; 
+ align-items: baseline;
+ font-size: 3em;
+}
