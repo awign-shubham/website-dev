@@ -1157,7 +1157,7 @@ h1, h2, h3, h4, h5, h6 {
   /*background: #29769C;*/
   /*background: #616A78;*/
   color: #fff;
-  padding: 8em 0;
+  padding: 4em 0;
 }
 #fh5co-testimony .fh5co-vcard img {
   width: 170px;
@@ -1250,3 +1250,5 @@ top: 50%; /* pushes the icon in the middle of the height */
 z-index: 5;
 display: inline-block;
 }
+
+
