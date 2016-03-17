@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading h3 {
   font-weight: 300;
   line-height: 1.5;
-  color: #929292;
+  color:#444;
 }
 @media screen and (max-width: 768px) {
   .section-heading h3 {
@@ -1213,6 +1213,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-testimony .fh5co-author > span {
   color: #000;
+}
+.fa-caret-right {
+ vertical-align: baseline; 
+ align-items: baseline;
+ font-size: 3em;
 }
 .color-theme {
   color: #032356;
