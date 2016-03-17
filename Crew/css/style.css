@@ -1150,7 +1150,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-testimony {
-  background: #4fd2c2;
+  background: #41577B;
+  /*background: #29769C;*/
+  /*background: #616A78;*/
   color: #fff;
   padding: 8em 0;
 }
@@ -1221,4 +1223,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 .color-theme {
   color: #032356;
+}
+
+
+.carousel-inner > .item.next,
+.carousel-inner > .item.active.right {
+    left: 0;
+    -webkit-transform: translate3d(33%, 0, 0);
+     transform: translate3d(33%, 0, 0);
+}
+.carousel-inner > .item.prev,
+.carousel-inner > .item.active.left {
+      left: 0;
+      -webkit-transform: translate3d(-33%, 0, 0);
+      transform: translate3d(-33%, 0, 0);
+ }
+.carousel-control       { width:  0%; }
+.carousel-control.prev,.carousel-control.next {
+  background-image:none;
+  position: absolute;
+top: 50%; /* pushes the icon in the middle of the height */
+z-index: 5;
+display: inline-block;
 }

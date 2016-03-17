@@ -439,7 +439,7 @@
 
     $(document).ready(function () {
     $('#myCarousel').carousel({
-        interval: 1000
+        interval: 5000
     })
     $('.fdi-Carousel .item').each(function () {
         var next = $(this).next();
