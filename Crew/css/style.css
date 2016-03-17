@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(3, 35, 86, 0.5);
   position: relative;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 20px;
 }
 #fh5co-header #navbar li a span {
   position: relative;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand {
   float: left;
   display: block;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 700;
   padding-left: 0;
   color: #032356;
