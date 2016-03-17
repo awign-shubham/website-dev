@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-features {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-features {
@@ -1114,7 +1114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row-bottom-padded-sm {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
@@ -1134,6 +1134,7 @@ h1, h2, h3, h4, h5, h6 {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  font-size:20px;    
 }
 
 
@@ -1150,7 +1151,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-testimony {
-  background: #4fd2c2;
+/*    background: #f4f4f4;*/
+  background: #05395B;
+/*  background: #4fd2c2;*/
   color: #fff;
   padding: 8em 0;
 }
@@ -1221,4 +1224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .color-theme {
   color: #032356;
+}
+.font-benefits{
+  font-size: 17px;
 }
