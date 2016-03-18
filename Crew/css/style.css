@@ -1257,4 +1257,5 @@ display: inline-block;
     vertical-align: middle;
     line-height: 150px;
     color: #032356;
+    align-items: center;
 }
