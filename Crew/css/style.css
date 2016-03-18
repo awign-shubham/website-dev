@@ -1167,6 +1167,8 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 @media screen and (max-width: 992px) {
   #fh5co-testimony .fh5co-vcard img {
@@ -1250,5 +1252,3 @@ top: 50%; /* pushes the icon in the middle of the height */
 z-index: 5;
 display: inline-block;
 }
-
-
