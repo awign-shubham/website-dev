@@ -887,6 +887,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 24%;
 }
 
+/* For Left and right navigators of banner pics */
 .owl-carousel .owl-controls .owl-nav .owl-next {
   right: 0;
 }
@@ -906,6 +907,7 @@ h1, h2, h3, h4, h5, h6 {
 .owl-carousel .owl-controls .owl-nav .owl-prev:hover i:before {
   color: white;
 }
+/* For Left and right navigators of banner pics */
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-next i,
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev i {
@@ -1008,28 +1010,6 @@ h1, h2, h3, h4, h5, h6 {
 .owl-carousel-fullwidth .item img {
   max-width: 100%;
 }
-.owl-carousel-fullwidth .item .iphone-image {
-  position: relative;
-  z-index: 99;
-}
-.owl-carousel-fullwidth .item .iphone-image .iphone {
-  float: right;
-  text-align: right;
-  position: relative;
-  bottom: -12em;
-}
-@media screen and (max-width: 768px) {
-  .owl-carousel-fullwidth .item .iphone-image .iphone {
-    bottom: 0em;
-    text-align: center;
-    float: none !important;
-    margin: 0 auto;
-    display: block;
-  }
-}
-.owl-carousel-fullwidth .item .iphone-image .iphone img {
-  max-width: 100%;
-}
 .owl-carousel-fullwidth .item .fh5co-owl-text {
   display: table-cell;
   vertical-align: middle;
@@ -1042,8 +1022,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text a:hover {
   text-decoration: none;
-  color: white;
-  border-bottom: 1px solid white;
+  color: #032356;
+  border-bottom: 1px #032356;
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead, .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead-2, .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
   color: #032356;
@@ -1210,8 +1190,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-testimony .fh5co-author {
-  font-family: "Montserrat", arial, sans-serif;
-  color: #fff;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  color: #000;
+  font-size: 22px;
 }
 @media screen and (max-width: 480px) {
   #fh5co-testimony .fh5co-author {
@@ -1248,9 +1229,9 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-control.prev,.carousel-control.next {
   background-image:none;
   position: absolute;
-top: 50%; /* pushes the icon in the middle of the height */
-z-index: 5;
-display: inline-block;
+  top: 50%; /* pushes the icon in the middle of the height */
+  z-index: 5;
+  display: inline-block;
 }
 
 .step-arrow{
@@ -1270,3 +1251,5 @@ display: inline-block;
     line-height: 500px;
     vertical-align: bottom;
 }
+
+.antialiased { -webkit-font-smoothing: antialiased; }
