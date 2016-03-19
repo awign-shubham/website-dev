@@ -1182,6 +1182,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimony blockquote p {
   font-size: 30px;
   line-height: 45px;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimony blockquote p {
@@ -1193,6 +1194,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", arial, sans-serif;
   color: #000;
   font-size: 22px;
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
   #fh5co-testimony .fh5co-author {
