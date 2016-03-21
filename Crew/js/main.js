@@ -41,6 +41,8 @@
 			items: 1,
 		    loop: true,
 		    margin: 0,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
 		    responsiveClass: true,
 		    nav: true,
 		    dots: true,
