@@ -49,7 +49,7 @@
 		    autoHeight: true,
 		    smartSpeed: 500,
 		    autoplay: true,
-			autoplayTimeout: 5000,
+			autoplayTimeout: 10000,
 			autoplayHoverPause: false,
 		    navText: [	
 		      "<i class='icon-arrow-left2 owl-direction'></i>",
@@ -333,8 +333,8 @@
 	// testimonials
 	var testimonialsAnimate = function() {
 
-		if ( $('#fh5co-testimonials').length > 0 ) {	
-			$('#fh5co-testimonials .to-animate').each(function( k ) {
+		if ( $('#fh5co-testimony').length > 0 ) {	
+			$('#fh5co-testimony .to-animate').each(function( k ) {
 				
 				var el = $(this);
 				
@@ -348,8 +348,8 @@
 	};
 	var testimonialsWayPoint = function() {
 
-		if ( $('#fh5co-testimonials').length > 0 ) {
-			$('#fh5co-testimonials').waypoint( function( direction ) {
+		if ( $('#fh5co-testimony').length > 0 ) {
+			$('#fh5co-testimony').waypoint( function( direction ) {
 										
 				
 					setTimeout(testimonialsAnimate, 200);
