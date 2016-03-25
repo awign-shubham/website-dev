@@ -1047,6 +1047,13 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 30px;
   }
 }
+/*@media screen and (min-width: 200px) {
+  .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead {
+    margin-bottom: 3.5vw;
+    font-size: 3.5vw;
+    line-height: 0.1vw;
+  }
+}*/
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
   font-size: 30px;
   line-height: 30px;
