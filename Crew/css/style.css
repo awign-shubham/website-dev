@@ -1223,6 +1223,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
   color: #7f7f7f;
 }
+.font-aboutus{
+  text-align: justify;
+  text-justify: inter-word;
+}
 .carousel-inner > .item.next,
 .carousel-inner > .item.active.right {
     left: 0;
